@@ -1,0 +1,142 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   width: 98.5%; 
+}
+
+.system-info {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 150px); /* Adjust width to accommodate the margin */
+  margin-left: 200px; /* Add margin to the left */
+}
+
+.card {
+  width: 45%; /* Adjust width to leave space between cards */
+}
+
+.card-media {
+  height: 200px; /* Increase the height of the card media */
+}
+
+.card-content {
+  padding: 16px; /* Increase padding for better text readability */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Increase font size of the card title */
+}
+
+.card-text {
+  font-size: 1rem; /* Increase font size of the card text */
+}
+
+
+/* .products-content{
+align-items: center;
+margin-left: 300px;
+margin-top: 50px;
+}
+
+.orders-content{
+align-items: center;
+margin-left: 1050px;
+} */
+
+
+
+/* .navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98.5%;
+  height: 50px;
+  z-index: 999;
+} */
+
+.navbar-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navbar-buttons .btn {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar-buttons .btn.manage-products-btn {
+  background-color: #007bff;
+}
+
+.navbar-buttons .btn.manage-orders-btn {
+  background-color: #007bff;
+}
+
+.content {
+  margin-top: 60px; /* Adjust this value according to the navbar height */
+}
+
+.summary-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* .system-info {
+  margin-bottom: 20px;
+  text-align: center;
+} */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-item {
+  margin: 0 10px; /* Adjust the margin to create space between cards */
+}
+
+
+/* .system-info {
+  margin-bottom: 20px;
+} */
+
+.summary-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.summary-container p {
+  font-size: 16px;
+  color: #555;
+}
+
+.summary-card {
+  cursor: pointer;
+}
