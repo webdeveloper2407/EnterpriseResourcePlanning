@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+**README**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Enterprise Resource Planning System
 
-## Available Scripts
+Welcome to the Enterprise Resource Planning (ERP) System! This web application provides various features for managing products and orders. You can add, edit, and delete products, as well as view and update order details.
 
-In the project directory, you can run:
+### Setup Instructions
 
-### `npm start`
+Follow these steps to run the front-end application:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   git clone <repository-url>
+ 
+2. Navigate to the project directory:
 
-### `npm test`
+   ```
+   cd <project-directory>
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies:
 
-### `npm run build`
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Run the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
 
-### `npm run eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the application is running, you will be presented with the dashboard of the ERP system. From here, you can navigate to different sections using the links in the navigation bar:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Dashboard**: Displays an overview of the system and its features.
+- **Products Management**: Allows you to manage products, including adding, editing, and deleting products.
+- **Orders Management**: Provides functionalities to manage orders, such as viewing order details, updating order status, and deleting orders.
+- **Calendar**: Shows a calendar view of orders scheduled for delivery, where you can click on dates to view orders scheduled for that date.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Dashboard
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The dashboard provides an overview of the system and its features. You can also navigate to other sections using the buttons provided.
 
-## Learn More
+![Dashboard](dashboard.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Products Management
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In the Products Management section, you can add new products, edit existing products, and delete products. Fill out the form fields and click the "Add Product" button to add a new product. To edit or delete a product, use the corresponding buttons in the table.
 
-### Code Splitting
+![Products Management](products.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Orders Management
 
-### Analyzing the Bundle Size
+In the Orders Management section, you can view a list of orders, update the status of orders, and delete orders. Click on "View Details" to see more information about an order. You can also update the status of an order or delete it using the respective buttons in the table.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Orders Management](orders.png)
 
-### Making a Progressive Web App
+#### Calendar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The Calendar section provides a calendar view of orders scheduled for delivery. Click on a date to view orders scheduled for that date in a popup.
 
-### Advanced Configuration
+![Calendar](calendar.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Technologies Used
 
-### Deployment
+- React.js: Front-end JavaScript library for building user interfaces.
+- React Router: Declarative routing for React applications.
+- Material-UI: React UI framework for building responsive web applications.
+- Day.js: Lightweight JavaScript library for date and time manipulation.
+- reactjs-popup: React component for modal, tooltip, and dropdown menus.
+- MUI Datepicker: Material-UI components for date picking.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Author
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created by Ranga Rithika Devi. You can reach out to me at rithikaranga@gmail.com for any inquiries or feedback.
