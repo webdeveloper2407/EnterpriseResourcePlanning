@@ -12,7 +12,8 @@ Follow these steps to run the front-end application:
    ```
    git clone https://github.com/webdeveloper2407/EnterpriseResourcePlanning.git
    ```
- 
+
+  visit this website for reference https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 2. Navigate to the project directory:
 
    ```
