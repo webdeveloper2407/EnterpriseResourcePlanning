@@ -48,25 +48,29 @@ Once the application is running, you will be presented with the dashboard of the
 
 The dashboard provides an overview of the system and its features. You can also navigate to other sections using the buttons provided.
 
-![Dashboard](Screenshot (1257).png)
+![Screenshot (1257)](https://github.com/webdeveloper2407/EnterpriseResourcePlanning/assets/66383166/15424b64-933f-4667-a8e4-f597c5c5f25a)
+
 
 #### Products Management
 
 In the Products Management section, you can add new products, edit existing products, and delete products. Fill out the form fields and click the "Add Product" button to add a new product. To edit or delete a product, use the corresponding buttons in the table.
 
-![Products Management](Screenshot (1258).png)
+![Screenshot (1258)](https://github.com/webdeveloper2407/EnterpriseResourcePlanning/assets/66383166/38e755f2-274a-48d4-8a68-99582c08f536)
+
 
 #### Orders Management
 
 In the Orders Management section, you can view a list of orders, update the status of orders, and delete orders. Click on "View Details" to see more information about an order. You can also update the status of an order or delete it using the respective buttons in the table.
 
-![Orders Management](Screenshot (1259).png)
+![Screenshot (1259)](https://github.com/webdeveloper2407/EnterpriseResourcePlanning/assets/66383166/e195f334-fecc-4dad-9da0-2859a6668b23)
+
 
 #### Calendar
 
 The Calendar section provides a calendar view of orders scheduled for delivery. Click on a date to view orders scheduled for that date in a popup.
 
-![Calendar](calendar.png)
+![Screenshot (1259)](https://github.com/webdeveloper2407/EnterpriseResourcePlanning/assets/66383166/7a638c3d-4794-4f2b-890f-6b950f15477c)
+
 
 ### Technologies Used
 
