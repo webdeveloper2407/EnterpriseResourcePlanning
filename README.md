@@ -10,7 +10,7 @@ Follow these steps to run the front-end application:
 
 1. Clone the repository to your local machine:
    ```
-   git clone EnterpriseResourcePlanning
+   git clone https://github.com/webdeveloper2407/EnterpriseResourcePlanning.git
    ```
  
 2. Navigate to the project directory:
