@@ -87,3 +87,7 @@ The Calendar section provides a calendar view of orders scheduled for delivery. 
 ### Author
 
 This project was created by Ranga Rithika Devi. You can reach out to me at rithikaranga@gmail.com for any inquiries or feedback.
+
+### NOTE
+
+The Data is Static 
