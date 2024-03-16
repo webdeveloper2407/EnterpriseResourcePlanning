@@ -9,13 +9,14 @@ Welcome to the Enterprise Resource Planning (ERP) System! This web application p
 Follow these steps to run the front-end application:
 
 1. Clone the repository to your local machine:
-
+   ```
    git clone EnterpriseResourcePlanning
+   ```
  
 2. Navigate to the project directory:
 
    ```
-   cd <project-directory>
+   cd /src/App.js
    ```
 
 3. Install dependencies:
