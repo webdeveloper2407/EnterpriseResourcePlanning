@@ -90,4 +90,4 @@ This project was created by Ranga Rithika Devi. You can reach out to me at rithi
 
 ### NOTE
 
-The Data is Static 
+The Data is Static.
